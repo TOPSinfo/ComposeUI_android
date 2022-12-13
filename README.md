@@ -24,14 +24,12 @@ In the dashboard tab, User can see the astrologer list
 
 In the booking tab, User and Astrologer can see their all bookings with different status like Upcoming, Ongoing and Past.
 
-In profile tab, User and Astrologer can see their personal information and other options like share app, rate app and logout.
-
 In notification  screen user can see the notification. 
 
 
 # User Credential
 
-- Phone Number    ==>    8888888888
+- Phone Number    ==>    7777777777
 - OTP             ==>    111111
 
 
@@ -40,8 +38,8 @@ In notification  screen user can see the notification.
 - Registration UI - It will validate with user data.
 - Login UI - It will validate login credentials. Once validation is done user will be redirect to the Dashboard UI.
 - Dashboard UI - User can see the list of astrologers. 
-- Profile UI - User can see their personal details.
-- Share UI - User can share the app with their friends.
+- Booking History UI - User can see their all booking like Upcoming booking, Ongoing booking, Past booking.
+- Notification UI -  User can see the notification.
 - Logout
 
 

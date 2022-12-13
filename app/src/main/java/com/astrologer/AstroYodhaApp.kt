@@ -87,7 +87,6 @@ fun NavGraphBuilder.astroYodhaGraph(appState: AstroYodhaAppState) {
     composable(WELCOME) {
         WelcomeScreen(openAndPopUp = { route, popUp -> appState.navigateAndPopUp(route, popUp) })
     }
-
     composable(
         "$LOGIN_SCREEN/{type}",
         arguments = listOf(
