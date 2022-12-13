@@ -6,7 +6,7 @@ This Jetpack Compose Demo app is very simple &amp; easy to understand. This Jetp
 
 # Technical details
 
-- Project Name  ==> Jetpack Compose UI - Android UI
+- Project Name  ==> Compose UI Sample App
 - Language      ==> Kotlin
 - Architecture  ==> MVVM
 - minSdk        ==> 23
