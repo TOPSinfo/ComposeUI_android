@@ -209,59 +209,7 @@ fun SignUpScreen(
                 viewModel.onSignUpClick(type,appState.activity, openAndPopUp)
             }
             Spacer(modifier = Modifier.size(20.dp))
-            Button(
-                onClick = {},
-                modifier = Modifier
-                    .fillMaxWidth()
-                    .height(40.dp)
-                    .padding(12.dp, 0.dp, 12.dp, 0.dp),
-                shape = RoundedCornerShape(4.dp),
-                colors = ButtonDefaults.buttonColors(
-                    contentColor = GrayColor, backgroundColor = Color.White
-                )
-            ) {
-                Row {
-                    Image(
-                        painter = painterResource(id = R.drawable.google),
-                        contentDescription = "g+",
-                        modifier = Modifier
-                            .size(30.dp)
-                            .padding(0.dp, 0.dp, 8.dp, 8.dp)
-                    )
-                    Text(
-                        text = "Sign up with Google", fontSize = 15.sp, fontWeight = FontWeight.Bold
-                    )
-                }
-            }
-            Spacer(modifier = Modifier.size(20.dp))
-            Button(
-                onClick = {},
-                modifier = Modifier
-                    .fillMaxWidth()
-                    .height(40.dp)
-                    .padding(12.dp, 0.dp, 12.dp, 0.dp),
-                shape = RoundedCornerShape(4.dp),
-                colors = ButtonDefaults.buttonColors(
-                    contentColor = GrayColor, backgroundColor = Color.White
-                )
-            ) {
-                Row {
-                    Image(
-                        painter = painterResource(id = R.drawable.fb),
-                        contentDescription = "g+",
-                        modifier = Modifier
-                            .size(30.dp)
-                            .padding(0.dp, 0.dp, 8.dp, 8.dp)
-                    )
-                    Text(
-                        text = "Sign up with Facebook",
-                        fontSize = 15.sp,
-                        fontWeight = FontWeight.Bold
-                    )
-                }
-            }
 
-            Spacer(modifier = Modifier.size(40.dp))
             Row(
                 Modifier.fillMaxWidth(),
                 horizontalArrangement = Arrangement.Center,

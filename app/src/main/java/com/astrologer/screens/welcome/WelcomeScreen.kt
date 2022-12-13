@@ -75,11 +75,6 @@ fun WelcomeScreen(openAndPopUp: (String, String) -> Unit,
                     fontWeight = FontWeight.Bold
                 )
                 Spacer(modifier = Modifier.size(10.dp))
-                Text(
-                    text = "AstroYodha",
-                    fontSize = 15.sp,
-                    textAlign = TextAlign.Center,
-                )
                 Spacer(modifier = Modifier.size(10.dp))
                 Column(
                     verticalArrangement = Arrangement.SpaceEvenly

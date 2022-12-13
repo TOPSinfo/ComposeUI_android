@@ -1,38 +1,45 @@
 {
   "project_info": {
-    "project_number": "553761929776",
-    "firebase_url": "https://astroyodha-bf08a-default-rtdb.firebaseio.com",
-    "project_id": "astroyodha-bf08a",
-    "storage_bucket": "astroyodha-bf08a.appspot.com"
+    "project_number": "335131650947",
+    "project_id": "astrology-app---siwftui",
+    "storage_bucket": "astrology-app---siwftui.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:553761929776:android:02db3071c09379d43d8bf5",
+        "mobilesdk_app_id": "1:335131650947:android:bd92b623431dbff6fb64b6",
         "android_client_info": {
-          "package_name": "com.cheap.icelands"
+          "package_name": "com.tops.composeui"
         }
       },
       "oauth_client": [
         {
-          "client_id": "553761929776-cf3dgqh5fgvt0btdvfvbvd15p20tcd8d.apps.googleusercontent.com",
+          "client_id": "335131650947-2864ce81sm0u12vme7lmtvdg0kthgigj.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.tops.composeui",
+            "certificate_hash": "5db4b3caeb1c97c76534acf7f9c7ad4c3e5f32c4"
+          }
+        },
+        {
+          "client_id": "335131650947-19h9is1tdbaj99sjcmb8dsbpe6e8i66l.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyAkRCxbemfLp-8BBNOIx5HhzPc6GmC-yak"
+          "current_key": "AIzaSyAsztoCBjFn-wuqTEZnhsQOCfZyuGXXwsQ"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "553761929776-cf3dgqh5fgvt0btdvfvbvd15p20tcd8d.apps.googleusercontent.com",
+              "client_id": "335131650947-19h9is1tdbaj99sjcmb8dsbpe6e8i66l.apps.googleusercontent.com",
               "client_type": 3
             },
             {
-              "client_id": "553761929776-kjtt0nv0ggvcvlj2pl4fbun07btj6fg0.apps.googleusercontent.com",
+              "client_id": "335131650947-1308f4378tuqi1mr0rhb5jdp2kocftes.apps.googleusercontent.com",
               "client_type": 2,
               "ios_info": {
                 "bundle_id": "com.cheap.icelands"

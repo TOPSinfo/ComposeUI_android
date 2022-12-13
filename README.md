@@ -1,7 +1,7 @@
 # Jetpack Compose UI Sample App
 This Jetpack Compose Demo app is very simple &amp; easy to understand. This Jetpack Compose demo includes login screen, registration screen, dashboard screen, booking history screen, profile screen and more
 
-![video](/Media/Jetpack Compose UI - Android UI.gif)
+![video](/Media/Jetpack_Compose_Android.gif)
 
 
 # Technical details
