@@ -1,7 +1,7 @@
-# SwiftUI Sample App
+# Jetpack Compose UI Sample App
 This swiftUI Demo app is very simple &amp; easy to understand. This swiftUI demo includes login screen, registration screen, dashboard screen, booking screen, booking history screen, booking calendar screen, profile screen and more
 
-![video](/Media/SwiftUI-Sample-App.gif)
+![video](/Media/Jetpack Compose UI - Android UI.gif)
 
 
 # Technical details
@@ -26,11 +26,8 @@ In the booking tab, User and Astrologer can see their all bookings with differen
 
 In profile tab, User and Astrologer can see their personal information and other options like share app, rate app and logout.
 
+In notification  screen user can see the notification. 
 
-# Astrologer Credential
-
-- Phone Number    ==>    9999999999 
-- OTP             ==>    111111
 
 # User Credential
 
