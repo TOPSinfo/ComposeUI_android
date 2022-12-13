@@ -1,5 +1,5 @@
 # Jetpack Compose UI Sample App
-This swiftUI Demo app is very simple &amp; easy to understand. This swiftUI demo includes login screen, registration screen, dashboard screen, booking screen, booking history screen, booking calendar screen, profile screen and more
+This Jetpack Compose Demo app is very simple &amp; easy to understand. This Jetpack Compose demo includes login screen, registration screen, dashboard screen, booking history screen, profile screen and more
 
 ![video](/Media/Jetpack Compose UI - Android UI.gif)
 
