@@ -22,13 +22,19 @@ import androidx.navigation.navArgument
 import com.astrologer.common.snackbar.SnackbarManager
 import com.astrologer.screens.dashboard.bottomnav.BottomNav
 import com.astrologer.screens.login.LoginScreen
-import com.astrologer.screens.notification.NotificationScreen
 import com.astrologer.screens.otp.OtpScreen
-import com.astrologer.screens.sign_up.SignUpScreen
+import com.astrologer.screens.signup.SignUpScreen
 import com.astrologer.screens.splash.SplashScreen
 import com.astrologer.screens.welcome.WelcomeScreen
 import com.astrologer.theme.AstroYodhaAppTheme
 import kotlinx.coroutines.CoroutineScope
+
+
+/**
+ *
+ * Application main class to redirect first screen
+ *
+ */
 
 @Composable
 @ExperimentalMaterialApi

@@ -16,6 +16,11 @@ import androidx.compose.ui.window.Dialog
 import androidx.compose.ui.window.DialogProperties
 import com.astrologer.R
 
+/**
+ *
+ * Custom Loader
+ *
+ */
 
 @Composable
 fun showProgress() {

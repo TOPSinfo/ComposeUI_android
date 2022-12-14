@@ -14,6 +14,11 @@ import com.google.firebase.ktx.Firebase
 import java.util.concurrent.TimeUnit
 import javax.inject.Inject
 
+
+/**
+ * Firebase Authentication
+ */
+
 class AccountServiceImpl @Inject constructor() : AccountService {
     private lateinit var omVerificationCode: String
 
@@ -23,24 +28,15 @@ class AccountServiceImpl @Inject constructor() : AccountService {
         onResult: (String, Throwable?) -> Unit,
     ) {
         val auth = Firebase.auth
-      /*  auth.firebaseAuthSettings.setAppVerificationDisabledForTesting(false)
-        auth.firebaseAuthSettings.forceRecaptchaFlowForTesting(true)
-*/
         auth.firebaseAuthSettings.setAppVerificationDisabledForTesting(true)
-
-
         val onVerificationCallback =
             object : PhoneAuthProvider.OnVerificationStateChangedCallbacks() {
                 override fun onVerificationCompleted(p0: PhoneAuthCredential) {
-                    Log.e("p0", "++++++" + p0.smsCode)
                     onResult("", null)
                 }
-
                 override fun onVerificationFailed(p0: FirebaseException) {
-                    Log.e("p0", "++++++" + p0.message)
                     onResult("", p0)
                 }
-
                 override fun onCodeSent(
                     verificationCode: String,
                     p1: PhoneAuthProvider.ForceResendingToken,

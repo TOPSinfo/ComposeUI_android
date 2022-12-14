@@ -7,7 +7,7 @@ import androidx.compose.ui.text.buildAnnotatedString
 import androidx.compose.ui.text.withStyle
 import com.astrologer.theme.*
 
-data class ReportModel(
+data class BookingModel(
     val date: String,
     val header: String,
     val time: String,
@@ -16,10 +16,10 @@ data class ReportModel(
     val color: Color
 )
 
-fun upcomingList(): MutableList<ReportModel>{
-    val list = mutableListOf<ReportModel>()
+fun upcomingList(): MutableList<BookingModel>{
+    val list = mutableListOf<BookingModel>()
     list.add(
-        ReportModel(
+        BookingModel(
             date = "4 \n Dec",
             header = "With Astro Peasant",
             time = "Time:  01:10 pm to 01:30 pm",
@@ -30,7 +30,7 @@ fun upcomingList(): MutableList<ReportModel>{
     )
 
     list.add(
-        ReportModel(
+        BookingModel(
             date = "10 \n Dec",
             header = "With Astro Adam",
             time = "Time:  01:10 pm to 01:30 pm",
@@ -41,7 +41,7 @@ fun upcomingList(): MutableList<ReportModel>{
     )
 
     list.add(
-        ReportModel(
+        BookingModel(
             date = "10 \n Dec",
             header = "With Astro Gilchrist",
             time = "Time:  01:10 pm to 01:30 pm",
@@ -52,7 +52,7 @@ fun upcomingList(): MutableList<ReportModel>{
     )
 
     list.add(
-        ReportModel(
+        BookingModel(
             date = "12 \n Dec",
             header = "With Astro Ian",
             time = "Time:  01:10 pm to 01:30 pm",
@@ -65,11 +65,11 @@ fun upcomingList(): MutableList<ReportModel>{
     return list
 }
 
-fun onGoingList(): MutableList<ReportModel>{
-    val list = mutableListOf<ReportModel>()
+fun onGoingList(): MutableList<BookingModel>{
+    val list = mutableListOf<BookingModel>()
 
     list.add(
-        ReportModel(
+        BookingModel(
             date = "30 \n Nov",
             header = "With Astro Botham",
             time = "Time:  01:10 pm to 01:30 pm",
@@ -82,11 +82,11 @@ fun onGoingList(): MutableList<ReportModel>{
     return list
 }
 
-fun pastList(): MutableList<ReportModel>{
-    val list = mutableListOf<ReportModel>()
+fun pastList(): MutableList<BookingModel>{
+    val list = mutableListOf<BookingModel>()
 
     list.add(
-        ReportModel(
+        BookingModel(
             date = "4 \n Nov",
             header = "With Astro Shane",
             time = "Time:  01:10 pm to 01:30 pm",
@@ -97,7 +97,7 @@ fun pastList(): MutableList<ReportModel>{
     )
 
     list.add(
-        ReportModel(
+        BookingModel(
             date = "3 \n Nov",
             header = "With Astro Watson",
             time = "Time:  01:10 pm to 01:30 pm",

@@ -10,7 +10,11 @@ import androidx.datastore.preferences.preferencesDataStore
 import dagger.hilt.android.HiltAndroidApp
 
 
-
+/**
+ *
+ * Application class
+ *
+ */
 val Context.dataStore : DataStore<Preferences> by preferencesDataStore(name = "LocalStore")
 @HiltAndroidApp
 class AstroYodhaHiltApp : Application() {

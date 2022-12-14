@@ -11,7 +11,6 @@ import androidx.compose.foundation.text.KeyboardOptions
 import androidx.compose.material.*
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.ArrowDropDown
-import androidx.compose.material.icons.filled.Search
 import androidx.compose.runtime.*
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
@@ -25,10 +24,16 @@ import androidx.compose.ui.unit.sp
 import androidx.compose.ui.window.Dialog
 import androidx.hilt.navigation.compose.hiltViewModel
 import com.astrologer.R
-import com.astrologer.screens.sign_up.SignUpViewModel
+import com.astrologer.screens.signup.SignUpViewModel
 import com.astrologer.utils.countrypicker.model.CountryCode
 import com.astrologer.utils.countrypicker.model.getFlagMasterResID
 import com.astrologer.utils.countrypicker.model.getListCountries
+
+/**
+ *
+ * Country code picker
+ *
+ */
 
 class CountryCodePicker {
     @Composable

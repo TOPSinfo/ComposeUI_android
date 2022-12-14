@@ -11,6 +11,12 @@ import androidx.compose.ui.graphics.Color
 import androidx.navigation.NavHostController
 import com.astrologer.theme.BrightOrange
 
+
+/**
+ * Show the snackbar message
+ */
+
+
 @Composable
 fun CustomTopAppBar(navController: NavHostController, title: String, showBackIcon : Boolean) {
     TopAppBar(

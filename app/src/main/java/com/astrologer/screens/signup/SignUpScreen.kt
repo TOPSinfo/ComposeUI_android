@@ -1,4 +1,4 @@
-package com.astrologer.screens.sign_up
+package com.astrologer.screens.signup
 
 import android.util.Log
 import androidx.compose.foundation.*

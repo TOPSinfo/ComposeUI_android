@@ -20,8 +20,13 @@ import com.astrologer.screens.dashboard.model.ReportModel
 import com.astrologer.theme.GrayColor
 import com.astrologer.theme.LightBlueColor
 
+
+/**
+ * BottomNavGraph for the bottom tab
+ */
+
 @Composable
-fun ReportListItem(
+fun BookingListItem(
     list: MutableList<ReportModel>
 ) {
     val data = remember {

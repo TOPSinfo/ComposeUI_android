@@ -5,10 +5,15 @@ import androidx.navigation.NavHostController
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import com.astrologer.NOTIFICATION
+import com.astrologer.screens.dashboard.screens.BookingScreen
 import com.astrologer.screens.dashboard.screens.HomeScreen
 import com.astrologer.screens.dashboard.screens.ProfileScreen
-import com.astrologer.screens.dashboard.screens.ReportScreen
 import com.astrologer.screens.notification.NotificationScreen
+
+
+/**
+ * BottomNavGraph for the bottom tab
+ */
 
 @Composable
 fun BottomNavGraph(
@@ -22,10 +27,10 @@ fun BottomNavGraph(
             HomeScreen(navController = navController)
         }
         composable(route = BottomBarScreen.Booking.route) {
-            ReportScreen()
+            BookingScreen()
         }
         composable(route = BottomBarScreen.Wallet.route) {
-            ReportScreen()
+            BookingScreen()
         }
         composable(route = BottomBarScreen.Profile.route) {
             ProfileScreen(navController = navController)

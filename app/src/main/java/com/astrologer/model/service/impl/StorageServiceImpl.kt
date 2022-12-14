@@ -9,6 +9,11 @@ import com.google.firebase.firestore.ktx.toObject
 import com.google.firebase.ktx.Firebase
 import javax.inject.Inject
 
+
+/**
+ * Storage Service Implementation
+ */
+
 class StorageServiceImpl @Inject constructor() : StorageService {
     private var listenerRegistration: ListenerRegistration? = null
 

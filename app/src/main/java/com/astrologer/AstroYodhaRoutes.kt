@@ -1,5 +1,13 @@
 package com.astrologer
 
+
+/**
+ *
+ * Route of the application
+ *
+ */
+
+
 const val SPLASH_SCREEN = "SplashScreen"
 const val SETTINGS_SCREEN = "SettingsScreen"
 const val LOGIN_SCREEN = "LoginScreen"

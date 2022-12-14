@@ -11,6 +11,11 @@ import com.google.firebase.remoteconfig.ktx.remoteConfigSettings
 import javax.inject.Inject
 import com.astrologer.R.xml as AppConfig
 
+
+/**
+ * Configuration Service Implementation
+ */
+
 class ConfigurationServiceImpl @Inject constructor(
     private val logService: LogService
 ) : ConfigurationService {

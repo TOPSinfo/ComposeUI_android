@@ -2,6 +2,11 @@ package com.astrologer.model.service
 
 import android.app.Activity
 
+
+/**
+ * AccountService implement
+ */
+
 interface AccountService {
     fun linkPhoneAccount(mobile: String , activity: Activity , onResult: (String,Throwable?) -> Unit)
     fun verifyPhoneAccount(verificationID: String ,code: String , activity: Activity , onResult: (String,Throwable?) -> Unit)

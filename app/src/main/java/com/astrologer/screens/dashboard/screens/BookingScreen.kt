@@ -31,7 +31,7 @@ import kotlinx.coroutines.launch
 
 @OptIn(ExperimentalPagerApi::class)
 @Composable
-fun ReportScreen() {
+fun BookingScreen() {
     val tabDataList = remember {
         tabDataList()
     }
@@ -115,15 +115,15 @@ fun ReportScreen() {
         HorizontalPager(state = pagerState) { pager ->
             when (pager) {
                 0 -> {
-                    ReportListItem(list = upcomingList())
+                    BookingListItem(list = upcomingList())
                 }
 
                 1 -> {
-                    ReportListItem(list = onGoingList())
+                    BookingListItem(list = onGoingList())
                 }
 
                 2 -> {
-                    ReportListItem(list = pastList())
+                    BookingListItem(list = pastList())
                 }
             }
         }

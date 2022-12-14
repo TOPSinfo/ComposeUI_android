@@ -6,6 +6,12 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.compose.material.ExperimentalMaterialApi
 import dagger.hilt.android.AndroidEntryPoint
 
+/**
+ *
+ * Application main class to redirect first screen
+ *
+ */
+
 @AndroidEntryPoint
 @ExperimentalMaterialApi
 class AstroYodhaActivity : AppCompatActivity() {

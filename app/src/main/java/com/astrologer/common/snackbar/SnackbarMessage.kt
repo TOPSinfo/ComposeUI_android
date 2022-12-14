@@ -4,6 +4,10 @@ import android.content.res.Resources
 import androidx.annotation.StringRes
 import com.astrologer.R.string as AppText
 
+/**
+ * Show the snackbar message
+ */
+
 sealed class SnackbarMessage {
     class StringSnackbar(val message: String): SnackbarMessage()
     class ResourceSnackbar(@StringRes val message: Int): SnackbarMessage()
@@ -15,7 +19,6 @@ sealed class SnackbarMessage {
                 is ResourceSnackbar -> resources.getString(this.message)
             }
         }
-
         fun Throwable.toSnackbarMessage(): SnackbarMessage {
             val message = this.message.orEmpty()
             return if (message.isNotBlank()) StringSnackbar(message)

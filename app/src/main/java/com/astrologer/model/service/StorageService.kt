@@ -2,6 +2,9 @@ package com.astrologer.model.service
 
 import com.astrologer.model.SignupVO
 
+/**
+ * StorageService implement
+ */
 
 interface StorageService {
     fun addListener(

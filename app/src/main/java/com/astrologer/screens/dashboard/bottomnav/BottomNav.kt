@@ -79,9 +79,6 @@ fun AddItem(
 
     Box(
         modifier = Modifier
-            //.height(140.dp)
-           //.clip(CircleShape)
-            //.background(background)
             .clickable(onClick = {
                 navController.navigate(screen.route) {
                     popUpTo(navController.graph.findStartDestination().id)
@@ -96,25 +93,25 @@ fun AddItem(
             horizontalArrangement = Arrangement.spacedBy(4.dp)
         ) {
             if (selected){
-                    Column(
-                        horizontalAlignment = Alignment.CenterHorizontally,
-                        verticalArrangement = Arrangement.Center
-                    ) {
-                        Icon(
-                            modifier = Modifier
-                                .size(20.dp).offset(4.dp, (10.unaryMinus()).dp),
-                            painter = painterResource(id = screen.icon_focused),
-                            contentDescription = "icon",
-                            tint = contentColor
-                        )
-                        Text(
-                            modifier = Modifier.offset(4.dp, (10.unaryMinus()).dp),
-                            text = screen.title ,
-                            color = contentColor,
-                            fontSize = 13.sp,
-                            textAlign = TextAlign.Center)
+                Column(
+                    horizontalAlignment = Alignment.CenterHorizontally,
+                    verticalArrangement = Arrangement.Center
+                ) {
+                    Icon(
+                        modifier = Modifier
+                            .size(20.dp).offset(4.dp, (10.unaryMinus()).dp),
+                        painter = painterResource(id = screen.icon_focused),
+                        contentDescription = "icon",
+                        tint = contentColor
+                    )
+                    Text(
+                        modifier = Modifier.offset(4.dp, (10.unaryMinus()).dp),
+                        text = screen.title ,
+                        color = contentColor,
+                        fontSize = 13.sp,
+                        textAlign = TextAlign.Center)
 
-                    }
+                }
             }else{
                 Column(
                     horizontalAlignment = Alignment.CenterHorizontally,

@@ -11,6 +11,15 @@ import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.flow.filterNotNull
 import kotlinx.coroutines.launch
 
+
+
+/**
+ *
+ * App state for redirect to screen in application
+ *
+ */
+
+
 @Stable
 class AstroYodhaAppState(
     val activity: Activity,
@@ -41,13 +50,6 @@ class AstroYodhaAppState(
     }
 
     fun navigateAndPopUp(route: String, popUp: String) {
-       /* navController.navigate(route) {
-            launchSingleTop = true
-            popUpTo(popUp) { inclusive = true }
-        }*/
-        if(popUp== SPLASH_SCREEN || popUp== HOME_SCREEN){
-            //navController.popBackStack()
-        }
         navController.navigate(route)
     }
 

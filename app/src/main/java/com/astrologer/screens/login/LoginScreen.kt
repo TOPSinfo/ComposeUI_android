@@ -27,7 +27,7 @@ import com.astrologer.AstroYodhaAppState
 import com.astrologer.LOGIN_SCREEN
 import com.astrologer.R
 import com.astrologer.SIGN_UP_SCREEN
-import com.astrologer.screens.sign_up.SignUpViewModel
+import com.astrologer.screens.signup.SignUpViewModel
 import com.astrologer.theme.BrightOrange
 import com.astrologer.theme.GrayColor
 import com.astrologer.utils.CountryCodePicker

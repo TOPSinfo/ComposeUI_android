@@ -18,6 +18,11 @@ import com.google.firebase.messaging.RemoteMessage
 import kotlinx.coroutines.GlobalScope
 import kotlinx.coroutines.launch
 
+
+/**
+ * Firebase messaging service
+ */
+
 class AstroYodhaFirebaseMessageService : FirebaseMessagingService() {
     override fun onMessageReceived(message: RemoteMessage) {
         super.onMessageReceived(message)
