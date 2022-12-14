@@ -6,8 +6,11 @@ import androidx.compose.runtime.mutableStateOf
 import androidx.datastore.preferences.core.edit
 import androidx.datastore.preferences.core.stringPreferencesKey
 import androidx.lifecycle.viewModelScope
-import com.astrologer.*
+import com.astrologer.HOME_SCREEN
+import com.astrologer.LOGIN_SCREEN
+import com.astrologer.SIGN_UP_SCREEN
 import com.astrologer.common.snackbar.SnackbarManager
+import com.astrologer.dataStore
 import com.astrologer.model.SignupVO
 import com.astrologer.model.service.AccountService
 import com.astrologer.model.service.LogService

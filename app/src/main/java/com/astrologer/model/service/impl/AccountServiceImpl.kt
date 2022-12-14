@@ -1,7 +1,6 @@
 package com.astrologer.model.service.impl
 
 import android.app.Activity
-import android.util.Log
 import com.astrologer.model.service.AccountService
 import com.google.firebase.FirebaseException
 import com.google.firebase.auth.FirebaseAuthInvalidCredentialsException

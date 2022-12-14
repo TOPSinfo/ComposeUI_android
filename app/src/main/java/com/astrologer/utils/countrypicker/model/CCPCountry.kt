@@ -1,7 +1,6 @@
 package com.astrologer.utils.countrypicker.model
 
 import com.astrologer.R
-import java.util.*
 
 data class CountryCode(
     var countryCode: String,

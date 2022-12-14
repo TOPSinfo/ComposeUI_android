@@ -21,7 +21,6 @@ import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.navigation.NavHostController
-import com.astrologer.HOME_SCREEN
 import com.astrologer.NOTIFICATION
 import com.astrologer.R
 import com.astrologer.screens.dashboard.model.GridModal
