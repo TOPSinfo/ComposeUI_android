@@ -128,6 +128,8 @@ fun NavGraphBuilder.astroYodhaGraph(appState: AstroYodhaAppState) {
         }
     }
     composable(HOME_SCREEN) {
-        BottomNav()
+        BottomNav(
+            appState.navController
+        )
     }
 }

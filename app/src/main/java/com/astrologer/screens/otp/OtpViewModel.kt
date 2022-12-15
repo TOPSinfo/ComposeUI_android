@@ -82,7 +82,6 @@ class OtpViewModel @Inject constructor(
             //saveUserData(task,activity,coroutineScope,openAndPopUp)
             if(task.isLogin){
                 openAndPopUp(HOME_SCREEN, LOGIN_SCREEN)
-
             }else{
                 openAndPopUp(HOME_SCREEN, SIGN_UP_SCREEN)
             }

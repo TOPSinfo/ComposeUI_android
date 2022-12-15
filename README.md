@@ -48,7 +48,7 @@ In notification  screen user can see the notification.
 - Menu
 - Navigation View
 - List
-- Naviagation component
+- Navigation component
 - Swipeable Tabview
 - Image 
 - Text

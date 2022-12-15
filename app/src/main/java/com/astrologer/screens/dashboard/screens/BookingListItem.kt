@@ -16,7 +16,7 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
-import com.astrologer.screens.dashboard.model.ReportModel
+import com.astrologer.screens.dashboard.model.BookingModel
 import com.astrologer.theme.GrayColor
 import com.astrologer.theme.LightBlueColor
 
@@ -27,7 +27,7 @@ import com.astrologer.theme.LightBlueColor
 
 @Composable
 fun BookingListItem(
-    list: MutableList<ReportModel>
+    list: MutableList<BookingModel>
 ) {
     val data = remember {
         list
@@ -50,7 +50,7 @@ fun BookingListItem(
 }
 
 @Composable
-fun ItemView(reportModel: ReportModel) {
+fun ItemView(reportModel: BookingModel) {
     Row(
         modifier = Modifier
             .fillMaxWidth()
