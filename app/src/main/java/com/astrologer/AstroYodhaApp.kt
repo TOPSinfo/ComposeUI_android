@@ -22,6 +22,7 @@ import androidx.navigation.navArgument
 import com.astrologer.common.snackbar.SnackbarManager
 import com.astrologer.screens.dashboard.bottomnav.BottomNav
 import com.astrologer.screens.login.LoginScreen
+import com.astrologer.screens.notification.NotificationPage
 import com.astrologer.screens.otp.OtpScreen
 import com.astrologer.screens.signup.SignUpScreen
 import com.astrologer.screens.splash.SplashScreen
@@ -131,5 +132,9 @@ fun NavGraphBuilder.astroYodhaGraph(appState: AstroYodhaAppState) {
         BottomNav(
             appState.navController
         )
+    }
+
+    composable(NOTIFICATION) {
+        NotificationPage(appState.navController)
     }
 }
