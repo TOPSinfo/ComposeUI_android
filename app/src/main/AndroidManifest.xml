@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.astrologer">
+    package="com.tops.composeui">
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
@@ -10,9 +10,9 @@
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:theme="@style/Theme.AstroYodha"
-        android:name = ".AstroYodhaHiltApp">
+        android:name = "com.tops.composeui.AstroYodhaHiltApp">
         <activity
-            android:name=".AstroYodhaActivity"
+            android:name="com.tops.composeui.AstroYodhaActivity"
             android:exported="true"
             android:theme="@style/Theme.AstroYodha.NoActionBar">
             <intent-filter>
@@ -25,7 +25,7 @@
             android:name="firebase_performance_logcat_enabled"
             android:value="true" />
 
-        <service android:name=".firebase.AstroYodhaFirebaseMessageService"
+        <service android:name="com.tops.composeui.firebase.AstroYodhaFirebaseMessageService"
             android:directBootAware="true" android:exported="false">
             <intent-filter>
                 <action android:name="com.google.firebase.MESSAGING_EVENT"/>
