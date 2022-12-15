@@ -18,13 +18,11 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.navigation.NavHostController
 import com.astrologer.R
+import com.astrologer.WELCOME
 import com.astrologer.theme.*
 
 @Composable
 fun ProfileScreen(navController: NavHostController) {
-    var mobileState by remember {
-        mutableStateOf("")
-    }
     Box(
         modifier = Modifier
             .fillMaxHeight()
@@ -252,8 +250,8 @@ fun ProfileScreen(navController: NavHostController) {
                                     }
                                 }
                                 Box (modifier = Modifier.clickable {
-                                   /* navController.popBackStack()
-                                    navController.navigate(LOGIN_SCREEN)*/
+                                    navController.popBackStack()
+                                    navController.navigate(WELCOME)
                                 }){
                                     Column(
                                         Modifier.fillMaxWidth().height(80.dp)) {
