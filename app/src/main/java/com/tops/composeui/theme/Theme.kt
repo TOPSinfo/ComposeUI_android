@@ -6,6 +6,12 @@ import androidx.compose.material.darkColors
 import androidx.compose.material.lightColors
 import androidx.compose.runtime.Composable
 
+
+/**
+ *  Set Different themes for app in dark and light
+ *  mode and save state of theme to material theme
+ * */
+
 private val DarkColorPalette = darkColors(
     primary = BrightOrange,
     primaryVariant = MediumOrange,

@@ -2,6 +2,12 @@ package com.tops.composeui.theme
 
 import androidx.compose.ui.graphics.Color
 
+/**
+ *  Define Application Colors for
+ *  Set app main theme , or for
+ *  Light and Dark theme
+ * */
+
 val MediumOrange = Color(0xFFFFA000)
 val DarkOrange = Color(0xFFF57C00)
 val Purple200 = Color(0xFFBB86FC)

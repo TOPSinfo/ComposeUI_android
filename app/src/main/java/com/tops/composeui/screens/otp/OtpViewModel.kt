@@ -21,6 +21,12 @@ import kotlinx.coroutines.launch
 import javax.inject.Inject
 import com.astrologer.R.string as AppText
 
+
+
+/**
+ *  Optview model
+ * */
+
 @HiltViewModel
 class OtpViewModel @Inject constructor(
     private val accountService: AccountService,

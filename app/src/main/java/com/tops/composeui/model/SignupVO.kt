@@ -2,6 +2,11 @@ package com.tops.composeui.model
 
 import java.sql.Timestamp
 
+
+/**
+ * Signup data classes
+ * */
+
 data class SignupVO(
     val birthdate: String = "",
     val birthplace: String = "",

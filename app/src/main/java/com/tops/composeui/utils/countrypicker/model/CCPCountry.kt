@@ -2,6 +2,11 @@ package com.tops.composeui.utils.countrypicker.model
 
 import com.astrologer.R
 
+
+/**
+ * Data class to store Country data
+* */
+
 data class CountryCode(
     var countryCode: String,
     val countryPhoneCode: String = "",

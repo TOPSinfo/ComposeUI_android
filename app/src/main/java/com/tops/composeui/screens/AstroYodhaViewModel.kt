@@ -6,6 +6,11 @@ import com.tops.composeui.common.snackbar.SnackbarMessage.Companion.toSnackbarMe
 import com.tops.composeui.model.service.LogService
 import kotlinx.coroutines.CoroutineExceptionHandler
 
+
+/**
+ * Astroyodha viewmodel
+ * */
+
 open class AstroYodhaViewModel(private val logService: LogService) : ViewModel() {
     open val showErrorExceptionHandler = CoroutineExceptionHandler { _, throwable ->
         onError(throwable)

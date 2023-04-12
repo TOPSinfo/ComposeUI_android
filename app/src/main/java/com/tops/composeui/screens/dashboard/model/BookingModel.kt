@@ -7,6 +7,11 @@ import androidx.compose.ui.text.buildAnnotatedString
 import androidx.compose.ui.text.withStyle
 import com.tops.composeui.theme.*
 
+/**
+ *  This data class is use to store and write
+ *  booking data
+ * */
+
 data class BookingModel(
     val date: String,
     val header: String,

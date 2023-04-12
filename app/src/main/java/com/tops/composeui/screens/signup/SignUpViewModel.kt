@@ -21,6 +21,12 @@ import java.sql.Timestamp
 import javax.inject.Inject
 import com.astrologer.R.string as AppText
 
+
+
+/**
+ * Signup view model
+ * */
+
 @HiltViewModel
 class SignUpViewModel @Inject constructor(
     private val accountService: AccountService, logService: LogService,

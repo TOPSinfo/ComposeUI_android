@@ -8,6 +8,11 @@ import com.tops.composeui.screens.AstroYodhaViewModel
 import dagger.hilt.android.lifecycle.HiltViewModel
 import javax.inject.Inject
 
+
+/**
+ * Splash screen view model
+ * */
+
 @HiltViewModel
 class SplashViewModel @Inject constructor(
     logService: LogService,
